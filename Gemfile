@@ -1,9 +1,8 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in davidmorton0_palindrome.gemspec
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# Specify your gem's dependencies in <username>_palindrome.gemspec
 gemspec
 
-# Gemfile
-source "https://rubygems.org"
-
-gem "minitest"
+gem 'minitest-reporters', '1.2.0'
